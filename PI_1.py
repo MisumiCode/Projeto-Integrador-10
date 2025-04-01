@@ -3,10 +3,10 @@ consumo_agua= float(input("Quantos litros de água você consumiu hoje? (aprox e
 energia_eletrica= float(input("Quantos kWh de energia elétrica você consumiu hoje?: "))
 residuo= float(input("Quantos Kg de resíduos não recicláveis você gerou hoje?: "))
 reciclados= float(input("Porcentagem de residuos reciclados no total(em %): v"))
-print ("\n\t Quais meios de transporte você ultilizou hoje? ") #importante colocar pra responder com sim ou não? 
+print ("\n\t Quais meios de transporte você ultilizou hoje? (responder com sim ou não): ")  
 T_publico= (input("Transporte público(metro, ônibus, trem): "))
 bicicleta= (input("Bicicleta: "))
-caminhada= (input("Caminhada: ")) # type: ignore
+caminhada= (input("Caminhada: ")) 
 carro= input (("Carro(combustíveis fósseis): "))
 carro_eletrico= (input("Carros elétricos: "))
 carona_compartilhada= (input("Caronas compartilhadas(combustível fóssil): "))
